@@ -1,13 +1,20 @@
-def question4():
-    answer4=input("What kind of computer are we using? a.Microsoft Windows LATITUDE E7340 b.Microsoft Windows Version 6.1.7601 c.Microsoft Windows Version 7.2.9042")
-    if answer4 == "b" or answer4== " b" or answer4=="B" or answer4==" B":
+def question5():
+    answer5=input("What kind of computer are we using? a.Microsoft Windows LATITUDE E7340 b.Microsoft Windows Version 6.1.7601 c.Microsoft Windows Version 7.2.9042")
+    if answer5 == "b" or answer5== " b" or answer5=="B" or answer5==" B":
         print("Congrats. You're as smart as we are. Join the club.")
 
     else:
         print("YEP.You're an idiot. GAME OVER!!!")
         exit()
 
-
+def question4():
+    answer4=input("What is an informal language that has no syntax rules and is not meant to be compiled or executed called?")
+    if answer4 == "pseudocode" or answer4 == " pseudocode" or answer4=="Pseudocode" or answer4==" Pseudocode":
+        print("Good one. On to the next question.")
+        question5()
+    else:
+        print("You're an idiot. GAME OVER!!!")
+        exit()
 
 def question3():
     answer3=input("How do you write a for-loop formula using x as a variable in Python?")
@@ -17,8 +24,6 @@ def question3():
     else:
         print("You're an idiot. GAME OVER!!!")
         exit()
-
-
 
 def question2():
     answer2=input("What is default message for the 'think ___ for _ seconds' in Scratch? a.hello b.hmm... c.hmmm")
@@ -50,12 +55,3 @@ else:
 
 
 
-
-
-# username = input("What is your name?")
-# print("Hi " + username + ".")
-# if user_input == "left":
-#     print("You decide to go left and...") # finished the story by writing what happens
-#
-# elif user_input == "right":
-#     print("You choose to go right and ...") # finished the story writing what happens
