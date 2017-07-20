@@ -34,9 +34,19 @@ def question2():
         print("You're an idiot. GAME OVER!!!")
         exit()
 
+# def question1():
+#     answer1=input("What represents a line of text, a character, or a number and can change throughout a program? a.variable b.constant c.string")
+#     if answer1 == "a" or answer1==" a" or answer1=="A" or answer1==" A" or answer1=="variable" or answer1==" variable" or answer1=="a.variable" or answer1==" a.variable":
+#         print("You're a smart fellah :)")
+#         question2()
+#     else:
+#         print("You're an idiot. GAME OVER!!!")
+#         exit()
+
 def question1():
     answer1=input("What represents a line of text, a character, or a number and can change throughout a program? a.variable b.constant c.string")
-    if answer1 == "a" or answer1==" a" or answer1=="A" or answer1==" A" or answer1=="variable" or answer1==" variable" or answer1=="a.variable" or answer1==" a.variable":
+    list1 =["a", " a", "A", " A", "variable", " variable", "a.", " a.", "a.variable", " a.variable"]
+    if answer1 in list1:
         print("You're a smart fellah :)")
         question2()
     else:
@@ -50,8 +60,5 @@ if start == "Yes" or start == "yes" or start=="YES":
 else:
     print("GAME OVER!!!")
     exit()
-
-
-
 
 
